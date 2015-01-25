@@ -1,0 +1,11 @@
+snippet t "A HTML tag" b
+<$(1:div)>
+	$2
+</$(1/(\w+).*/$1/)>
+endsnippet
+
+snippet a "<a> tag with href" b
+<a href="$1"${2: class="${3:link}"}>
+  $0
+</a>
+endsnippet

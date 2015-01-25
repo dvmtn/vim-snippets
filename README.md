@@ -15,5 +15,10 @@ Trigger              | Template
 ### Ruby
 Trigger              | Template
 ---------------------|-----------------------------------------
-  `ptap`             | Adds a tap which `puts` the given items
+  `ptap`             | A tap which `puts` the given items
 
+### HTML
+Trigger              | Template
+---------------------|-----------------------------------------
+  `t`                | Any HTML tag
+  `a`                | <a> tag
