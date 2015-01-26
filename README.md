@@ -26,4 +26,5 @@ Trigger              | Template
 ### CSS
 Trigger              | Template
 ---------------------|-----------------------------------------
+  `reset`            | CSS Reset + use box sizing
   `mq`               | Media query
