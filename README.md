@@ -27,4 +27,6 @@ Trigger              | Template
 Trigger              | Template
 ---------------------|-----------------------------------------
   `reset`            | CSS Reset + use box sizing
+  `brad`             | border-radius
   `mq`               | Media query
+  `resptab`          | Responsive table

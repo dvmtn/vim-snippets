@@ -12,3 +12,32 @@ snippet reset "CSS reset" b
   box-sizing: border-box;
 }
 endsnippet
+
+snippet brad "Border Radius" b
+	border-radius: $1px;
+endsnippet
+
+# Taken from http://codepen.io/chriscoyier/pen/VYPdXa?editors=110
+snippet resptab "Responsive table" b
+	.table    { display: table }
+	.tr       { display: table-row }
+	.thead    { display: table-header-group }
+	.tbody    { display: table-row-group }
+	.tfoot    { display: table-footer-group }
+	.col      { display: table-column }
+	.colgroup { display: table-column-group }
+	.td, .th  { display: table-cell }
+	.caption  { display: table-caption }
+
+	@media (max-width: 700px) {
+		.table    { display: block }
+		.tr       { display: block }
+		.thead    { display: block }
+		.tbody    { display: block }
+		.tfoot    { display: block }
+		.col      { display: none }
+		.colgroup { display: none }
+		.td, .th  { display: inline-block }
+		.caption  { display: block }
+	}
+endsnippet
